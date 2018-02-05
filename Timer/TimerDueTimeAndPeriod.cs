@@ -15,7 +15,7 @@ namespace Timer
 		{
 			_className = this.GetType().Name;
 
-			IScheduler scheduller;
+			IScheduler scheduller = new HistoricalScheduler();
 			_timerObservable = Observable.Timer(dueTime, period, scheduller);
 
 			_lambdaSubscribe = _timerObservable.Subscribe(index =>
