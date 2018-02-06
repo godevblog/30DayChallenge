@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Reactive.Concurrency;
 using System.Reactive.Linq;
 
 namespace Timer
@@ -15,8 +14,7 @@ namespace Timer
 		{
 			_className = this.GetType().Name;
 
-			IScheduler scheduller = new HistoricalScheduler();
-			_timerObservable = Observable.Timer(dueTime, period, scheduller);
+			_timerObservable = Observable.Timer(dueTime, period);
 
 			_lambdaSubscribe = _timerObservable.Subscribe(index =>
 			{

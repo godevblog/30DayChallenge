@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shedulers", "Shedulers\Shedulers.csproj", "{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscribe", "Subscribe\Subscribe.csproj", "{4F2B280F-58D9-4C42-8994-C695BCCDBAA2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F2B280F-58D9-4C42-8994-C695BCCDBAA2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F2B280F-58D9-4C42-8994-C695BCCDBAA2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F2B280F-58D9-4C42-8994-C695BCCDBAA2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F2B280F-58D9-4C42-8994-C695BCCDBAA2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
