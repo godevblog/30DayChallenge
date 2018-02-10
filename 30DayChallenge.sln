@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Buffer", "Buffer\Buffer.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Delay", "Delay\Delay.csproj", "{CC223C74-1C39-40F9-923F-C3B0510A7589}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{4BB6AC9E-925A-4904-9A4A-5B59F17B1875}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{CC223C74-1C39-40F9-923F-C3B0510A7589}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CC223C74-1C39-40F9-923F-C3B0510A7589}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CC223C74-1C39-40F9-923F-C3B0510A7589}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4BB6AC9E-925A-4904-9A4A-5B59F17B1875}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4BB6AC9E-925A-4904-9A4A-5B59F17B1875}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4BB6AC9E-925A-4904-9A4A-5B59F17B1875}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4BB6AC9E-925A-4904-9A4A-5B59F17B1875}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
