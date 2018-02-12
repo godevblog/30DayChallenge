@@ -2,7 +2,7 @@
 using System.Reactive.Concurrency;
 using System.Reactive.Linq;
 
-namespace Shedulers
+namespace Schedulers
 {
 	public class ExampleTimer : IDisposable
 	{

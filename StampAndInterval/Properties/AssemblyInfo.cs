@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("Schedulers")]
+[assembly: AssemblyTitle("StampAndInterval")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Schedulers")]
+[assembly: AssemblyProduct("StampAndInterval")]
 [assembly: AssemblyCopyright("Copyright ©  2018")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("3d6d9fc9-88a9-4c01-aab9-e99d274041fb")]
+[assembly: Guid("efc4819b-885c-42ac-ab49-e826ab0a27df")]
 
 // Version information for an assembly consists of the following four values:
 //

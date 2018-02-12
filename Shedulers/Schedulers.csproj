@@ -7,8 +7,8 @@
     <ProjectGuid>{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Shedulers</RootNamespace>
-    <AssemblyName>Shedulers</AssemblyName>
+    <RootNamespace>Schedulers</RootNamespace>
+    <AssemblyName>Schedulers</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

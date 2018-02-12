@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Timer", "Timer\Timer.csproj", "{3726911D-8D29-4835-B1C1-FBF7C284D8BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shedulers", "Shedulers\Shedulers.csproj", "{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Schedulers", "Shedulers\Schedulers.csproj", "{3D6D9FC9-88A9-4C01-AAB9-E99D274041FB}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Subscribe", "Subscribe\Subscribe.csproj", "{4F2B280F-58D9-4C42-8994-C695BCCDBAA2}"
 EndProject
@@ -18,6 +18,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample", "Sample\Sample.csproj", "{4BB6AC9E-925A-4904-9A4A-5B59F17B1875}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Throttle", "Throttle\Throttle.csproj", "{7FB1CD65-8A20-467B-950D-5C862DD8A3DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StampAndInterval", "StampAndInterval\StampAndInterval.csproj", "{EFC4819B-885C-42AC-AB49-E826AB0A27DF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{7FB1CD65-8A20-467B-950D-5C862DD8A3DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7FB1CD65-8A20-467B-950D-5C862DD8A3DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7FB1CD65-8A20-467B-950D-5C862DD8A3DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

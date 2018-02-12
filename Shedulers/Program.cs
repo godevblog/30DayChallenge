@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Reactive.Concurrency;
 
-namespace Shedulers
+namespace Schedulers
 {
 	class Program
 	{
