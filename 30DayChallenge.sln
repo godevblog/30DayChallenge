@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Throttle", "Throttle\Thrott
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StampAndInterval", "StampAndInterval\StampAndInterval.csproj", "{EFC4819B-885C-42AC-AB49-E826AB0A27DF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generators", "Generators\Generators.csproj", "{2D9F5185-6E65-4F97-8CFA-E206C9EA229E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EFC4819B-885C-42AC-AB49-E826AB0A27DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D9F5185-6E65-4F97-8CFA-E206C9EA229E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D9F5185-6E65-4F97-8CFA-E206C9EA229E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D9F5185-6E65-4F97-8CFA-E206C9EA229E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D9F5185-6E65-4F97-8CFA-E206C9EA229E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
