@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OwnObservable", "OwnObserva
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skip", "Skip\Skip.csproj", "{5D78FAD3-FDB8-451F-8003-2BC90E10818E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take", "Take\Take.csproj", "{A8F03841-F823-4A04-9501-DEC83DBAB335}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -87,6 +89,10 @@ Global
 		{5D78FAD3-FDB8-451F-8003-2BC90E10818E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D78FAD3-FDB8-451F-8003-2BC90E10818E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D78FAD3-FDB8-451F-8003-2BC90E10818E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
