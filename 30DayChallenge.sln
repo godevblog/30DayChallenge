@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Skip", "Skip\Skip.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Take", "Take\Take.csproj", "{A8F03841-F823-4A04-9501-DEC83DBAB335}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleKeyEvent", "ConsoleKeyEvent\ConsoleKeyEvent.csproj", "{3C359B29-F57C-4016-85F4-E5971D8F1B2F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -93,6 +95,10 @@ Global
 		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8F03841-F823-4A04-9501-DEC83DBAB335}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C359B29-F57C-4016-85F4-E5971D8F1B2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C359B29-F57C-4016-85F4-E5971D8F1B2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C359B29-F57C-4016-85F4-E5971D8F1B2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C359B29-F57C-4016-85F4-E5971D8F1B2F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
