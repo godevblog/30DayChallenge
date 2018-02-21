@@ -63,6 +63,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ConsoleKey\ObservableConsoleKey.cs" />
+    <Compile Include="Factories\GeneratorFactory.cs" />
     <Compile Include="ObservableProvider.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="TimeCounter\ObservableTimeCounter.cs" />
