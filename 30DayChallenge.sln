@@ -41,6 +41,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StartWith", "StartWith\Star
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambiguous", "Ambiguous\Ambiguous.csproj", "{E5DAF5BB-2CD7-419D-8379-C26EDF8C85E4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge", "Merge\Merge.csproj", "{FEBF1816-BE53-4978-AE65-876CF8E13A62}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -123,6 +125,10 @@ Global
 		{E5DAF5BB-2CD7-419D-8379-C26EDF8C85E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5DAF5BB-2CD7-419D-8379-C26EDF8C85E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5DAF5BB-2CD7-419D-8379-C26EDF8C85E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
