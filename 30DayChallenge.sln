@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ambiguous", "Ambiguous\Ambi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge", "Merge\Merge.csproj", "{FEBF1816-BE53-4978-AE65-876CF8E13A62}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip", "Zip\Zip.csproj", "{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -129,6 +131,10 @@ Global
 		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEBF1816-BE53-4978-AE65-876CF8E13A62}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

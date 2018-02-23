@@ -45,7 +45,10 @@ namespace Merge
 
 
 			var observableMerge2 = GeneratorFactory.CreateGenerator(-1000, 0, 1, 10);
-			observableMerge2.Merge(observableGenerator1).Merge(observableGenerator2).Merge(observableGenerator3);
+			observableMerge2
+				.Merge(observableGenerator1)
+				.Merge(observableGenerator2)
+				.Merge(observableGenerator3);
 
 			var subscribent2 = observableMerge2.Subscribe(
 				item =>
