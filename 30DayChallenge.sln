@@ -45,6 +45,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Merge", "Merge\Merge.csproj
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Zip", "Zip\Zip.csproj", "{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Switch", "Switch\Switch.csproj", "{3073A4C2-5414-4C98-BA67-F19F1657A4B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -135,6 +137,10 @@ Global
 		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B7BDDC2-F250-40D1-B8D6-BE5D59DC6EF2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3073A4C2-5414-4C98-BA67-F19F1657A4B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3073A4C2-5414-4C98-BA67-F19F1657A4B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3073A4C2-5414-4C98-BA67-F19F1657A4B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3073A4C2-5414-4C98-BA67-F19F1657A4B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,15 +4,17 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AD05BE9B-993A-4DF9-83FC-5218363BB02F}</ProjectGuid>
-    <OutputType>Library</OutputType>
+    <ProjectGuid>{3073A4C2-5414-4C98-BA67-F19F1657A4B2}</ProjectGuid>
+    <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>RXLib</RootNamespace>
-    <AssemblyName>RXLib</AssemblyName>
+    <RootNamespace>Switch</RootNamespace>
+    <AssemblyName>Switch</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -22,6 +24,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugType>pdbonly</DebugType>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
@@ -62,24 +65,19 @@
     <Reference Include="WindowsBase" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ConsoleKey\ObservableConsoleKey.cs" />
-    <Compile Include="Extensions\ConvertingExtensions.cs" />
-    <Compile Include="Extensions\PrintExtensions.cs" />
-    <Compile Include="Factories\GeneratorFactory.cs" />
-    <Compile Include="ObservableProvider.cs" />
+    <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Randomizer\ObservableRandomizer.cs" />
-    <Compile Include="Randomizer\Randomed.cs" />
-    <Compile Include="TimeCounter\ObservableTimeCounter.cs" />
-    <Compile Include="Unsubscriber.cs" />
-    <Compile Include="TimeCounter\Time.cs" />
-    <Compile Include="ValentinesDay\ObservableValentinesDay.cs" />
-    <Compile Include="ValentinesDay\ValentinesDayMessage.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\RXLib\RXLib.csproj">
+      <Project>{ad05be9b-993a-4df9-83fc-5218363bb02f}</Project>
+      <Name>RXLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
