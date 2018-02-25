@@ -72,8 +72,6 @@ namespace RXLib.Randomizer
 		{
 			_threadInProgress = false;
 
-			_thread?.Abort();
-
 			_observers.ForEach(observer => observer.OnCompleted());
 
 			_observers.Clear();
