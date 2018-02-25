@@ -5,7 +5,7 @@ namespace RXLib.Extensions
 {
 	public static class HelpingExtensions
 	{
-		public static IDisposable BreakeWhenKey(this ObservableConsoleKey source, System.ConsoleKey exitKey)
+		public static IDisposable BreakWhenKey(this ObservableConsoleKey source, System.ConsoleKey exitKey)
 		{
 			var subscription = source
 				.Subscribe(key =>
