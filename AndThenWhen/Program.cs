@@ -15,7 +15,7 @@ namespace AndThenWhen
 			var observableStream3 = GeneratorFactory.CreateGenerator(0, 100, 1, 120);
 			var observableProvider = new ObservableProvider();
 
-			observableProvider.ConsoleKey.BreakeWhenKey(ConsoleKey.Enter);
+			observableProvider.ConsoleKey.BreakWhenKey(ConsoleKey.Enter);
 
 			var whenAndThenSequence = Observable.When(observableStream1
 				.And(observableStream2)
