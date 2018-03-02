@@ -55,6 +55,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Select", "Select\Select.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataManipulation", "MetadataManipulation\MetadataManipulation.csproj", "{E1F2261A-F3C3-4DB9-996D-BC50AEEE732D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D64B8802-723E-4551-AE27-C8EF5F1A384E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -165,6 +167,10 @@ Global
 		{E1F2261A-F3C3-4DB9-996D-BC50AEEE732D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1F2261A-F3C3-4DB9-996D-BC50AEEE732D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1F2261A-F3C3-4DB9-996D-BC50AEEE732D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
