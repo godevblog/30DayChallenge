@@ -30,7 +30,7 @@ namespace Tests.Interval
 			var period = TimeSpan.FromSeconds(1);
 
 			_sourceObservableInterval = Observable.Interval(period, _testScheduler)
-			.Take(_disposed);
+				.Take(_disposed);
 		}
 		#endregion arrange
 
