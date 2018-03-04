@@ -21,7 +21,7 @@ namespace Tests.Interval
 			//act
 			var result = act();
 
-			//assert__simulation_notification
+			//assert
 			_fixture.assert__simulation_notification(result);
 		}
 
