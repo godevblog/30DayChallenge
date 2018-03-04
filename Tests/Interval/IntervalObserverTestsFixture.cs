@@ -46,7 +46,7 @@ namespace Tests.Interval
 		}
 		#endregion act
 
-		#region assert__simulation_notification
+		#region assert
 		public void assert__simulation_notification(IList<Recorded<Notification<long>>> result)
 		{
 			var shouldBeValue = _disposed - 1;
@@ -60,6 +60,6 @@ namespace Tests.Interval
 				item.Value.Value.ShouldBe(index++);
 			}
 		}
-		#endregion assert__simulation_notification
+		#endregion assert
 	}
 }
