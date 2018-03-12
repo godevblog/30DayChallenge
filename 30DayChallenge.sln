@@ -57,6 +57,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetadataManipulation", "Met
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{D64B8802-723E-4551-AE27-C8EF5F1A384E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DependencyInjection", "DependencyInjection\DependencyInjection.csproj", "{53924AF7-2002-48E7-ACAB-30A2224D55F7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -171,6 +173,10 @@ Global
 		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D64B8802-723E-4551-AE27-C8EF5F1A384E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{53924AF7-2002-48E7-ACAB-30A2224D55F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53924AF7-2002-48E7-ACAB-30A2224D55F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53924AF7-2002-48E7-ACAB-30A2224D55F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53924AF7-2002-48E7-ACAB-30A2224D55F7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
